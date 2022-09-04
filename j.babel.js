@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var _arguments = arguments;
+// var _arguments = arguments;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
@@ -705,7 +705,7 @@ var uniqueByKey = exports.uniqueByKey = function uniqueByKey(arr, key, returnArr
 };
 
 var _jconcat = function _jconcat(base) {
-  var path = Array.prototype.slice.call(_arguments, 1),
+  var path = Array.prototype.slice.call(arguments, 1),
       ret = [];
   path.forEach(function (path) {
     _j(path, base, []).forEach(function (item) {
